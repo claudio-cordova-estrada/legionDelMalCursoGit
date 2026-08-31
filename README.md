@@ -8,7 +8,7 @@
 ![Último commit](https://img.shields.io/github/last-commit/claudio-cordova-estrada/legionDelMalCursoGit)
 ![Licencia](https://img.shields.io/github/license/claudio-cordova-estrada/legionDelMalCursoGit)
 
-# 🦹‍♂️ La Legión del Mal !!! - desde remoto
+# 🦹‍♂️ La Legión del Mal !!! - desde remoto y local
 
 > _"El mundo no se conquista con fuerza bruta, se conquista con un buen plan y control de versiones."_
 > — Lex Luthor, fundador
