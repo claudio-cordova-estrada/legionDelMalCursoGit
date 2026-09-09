@@ -34,7 +34,7 @@ on: #push
           type: choice
           options:
             - eyes
-            - cake
+            - cake.cow
             - cat
             - yasuna_02
 jobs:
