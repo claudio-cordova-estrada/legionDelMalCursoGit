@@ -29,7 +29,7 @@ on: #push
             - 🔴 Crítica
 
         cow-character:
-          description: "Nivel de prioridad"
+          description: "cow character"
           required: true
           type: choice
           options:
