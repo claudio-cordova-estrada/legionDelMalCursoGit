@@ -34,9 +34,10 @@ on: #push
           type: choice
           options:
             - eyes
-            - cake.cow
-            - cat
+            - cake
+            - Cat
             - yasuna_02
+            - nyan
 jobs:
     transmitir-mensaje:
         runs-on: ubuntu-latest
