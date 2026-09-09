@@ -13,6 +13,7 @@ on: #push
             - Joker
             - Mystique
             - Brainiac
+        
         mensaje:
           description: "Mensaje para el consejo"
           required: true
@@ -27,6 +28,15 @@ on: #push
             - 🟡 Alta
             - 🔴 Crítica
 
+        cow-character:
+          description: "Nivel de prioridad"
+          required: true
+          type: choice
+          options:
+            - eyes
+            - cake
+            - cat
+            - yasuna_02
 jobs:
     transmitir-mensaje:
         runs-on: ubuntu-latest
@@ -44,7 +54,7 @@ jobs:
                 echo ""
                 echo "Fecha: $(date -u +"%d/%m/%Y - %H:%M UTC")"
                 echo "---- mensaje ----"
-                cowsay -f eyes "${{ inputs.mensaje }}"
+                cowsay -f ${{ inputs.cow-character }} "${{ inputs.mensaje }}"
                 echo ""
                 echo "${{ inputs.villano }}"
                 echo ""
