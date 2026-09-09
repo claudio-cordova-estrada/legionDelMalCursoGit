@@ -35,7 +35,7 @@ on: #push
           options:
             - eyes
             - cake
-            - CAT
+            - cat
             - yasuna_02
             - nyan
 jobs:
@@ -55,7 +55,7 @@ jobs:
                 echo ""
                 echo "Fecha: $(date -u +"%d/%m/%Y - %H:%M UTC")"
                 echo "---- mensaje ----"
-                cowsay -f "${{ inputs.cow-character }}" "${{ inputs.mensaje }}"
+                cowsay -f cat "${{ inputs.mensaje }}"
                 echo ""
                 echo "${{ inputs.villano }}"
                 echo ""
